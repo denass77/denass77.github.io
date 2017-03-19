@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <body>
+      <div id="container"></div>
+      <script> 
+        var container = document.getElementById("container");
+    for (var indexS = 0; indexS < 8; indexS++) {
+    for (var indexR = 0; indexR < 8; indexR++) {
+      var square = document.createElement("div");
+        if((indexS+indexR) % 2 == 0){
+              square.style.backgroundColor = "white";
+            }
+            else{
+              square.style.backgroundImage = "linear-gradient(to top left, yellow,deeppink,blueviolet)";
+            }
+             square.classList.add("square");
+            container.appendChild(square);
+    
+  }
+  
+}
+    </script>
+    </body>
+    </html>

@@ -1,0 +1,26 @@
+p{
+    color: coral;
+    
+}
+h1{
+    color: deeppink;
+}
+#test{
+    text-shadow: 5px 5px 5px coral;
+}
+body{
+  background-image: url(pic/3_1.jpg);
+}
+table{
+    background-color: darkgrey;
+    
+  
+}
+
+#test:hover{
+    color: aqua;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
